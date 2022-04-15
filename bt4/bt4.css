@@ -1,0 +1,310 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+:root{
+    --normal-width: 860px;
+    --large-width: 970px;
+} 
+.congteno{
+    background-color: ;
+    width: 970px;
+    height: 610px;
+    margin-left: 250px;
+}
+.dau{
+    width: 100%;
+    height: 122px;
+    display: grid;
+    grid-template-columns: 105px 860px;
+}
+.logo{
+    width: 105px;
+    height: 122px;
+    background-image: url(/images/logo.png);
+}
+.demuc{
+    width: 865px;
+    padding-left: 5px;
+}
+.demuc li{
+    display: inline-table;
+    padding-left: 15px;
+    
+}
+a{
+    font-size: medium;
+    text-decoration: none;
+    padding-right: 1px;
+font-weight: bolder;
+}
+.demuc-tren{
+    position: relative;
+}
+.demuc-tren a{
+    color: black;
+}
+.demuc-duoi{
+    height: 69px;
+    background-color: #f69631;
+    display: flex;
+
+}
+.demuc-duoi li{
+    line-height: 40px;
+
+}
+.demuc-duoi a{
+    color: aliceblue;
+}
+.icon i{
+    border-radius: 5px;
+    background-color: #fbd5ab;
+    width: 40px;
+    height: 40px;
+    padding: 13px;
+    display: inline-flex;
+    margin: 10px;
+    color:#f69631
+}
+.tim{
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+.noibat{
+    width: 100%;
+    height: 1000px;
+
+    margin-top: 8px;
+}
+
+}
+.noibat1{
+    width: 100%;
+    height: 250px;
+background-image: url(/images/banner-redmi-note7.png);
+}
+.noibat2{
+position: relative;
+    margin-top: 20px;
+    display: flex;
+    gap: 2px;
+}
+
+.tinvan{
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 462px;
+}
+.tinvanvan{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height:196px;
+    gap: 2px;
+}
+.msi-2019{
+    width: 534px;
+    height: 462px;
+    background-image: url(/images/msi-2019.jpg);
+    position: relative;
+    
+
+}
+.msi-2019-players{
+width: 533px;
+height: 261px;
+background-image: url(/images/msi-2019-players.jpg);
+}
+.levi{
+    width: 265px;
+    height: 198px;
+    background-image: url(/images/levi-jdk.jpg);
+}
+.hera{
+    width: 265px;
+    height: 198px;
+    background-image: url(/images/kieu-anh-hera.jpg)
+}
+.text1{
+    color: white;
+    font-size: 25px;
+}
+.time{
+    color: aliceblue;
+    font-size: small;
+}
+.tmsi-2019{
+    position: absolute;
+    width: 400px;
+    left: 10px;
+    bottom: 0px;
+    
+}
+.text2{
+    color: aliceblue;
+    position: absolute;
+    top: 208px;
+    left: 10px;
+    width:400px ;
+    font-size: 20px;
+}
+.text3{
+    color: aliceblue;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    width:200px ;
+    font-size: 15px;
+}
+.text4{
+    color: aliceblue;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    width:200px ;
+    font-size: 15px;
+}
+.tintucbaiviet{
+    display: flex;
+    margin-left: 250px;
+}
+.line-orange::before{
+    width: 45px;
+    height: 2px;
+    background-color: #f8ac5d;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    display: block;
+    z-index: 99;
+}
+.line-gray::after{
+    width: 40px;
+    height: 2px;
+    background-color: #f5f5f5;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:45px;
+    display: block;
+    z-index: 99;
+}
+.line-gray1::after{
+    width: 270px;
+    height: 2px;
+    background-color: #F5F5F5;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left:45px;
+    display: block;
+    z-index: 99;
+}
+.tintuc{
+    width: 650px;
+    margin-right: 0px;
+}
+.tieude1 {
+    position: relative;
+    margin: 20px 0;
+    color: #F69c60;
+    font-size: 1.2em;
+}
+.baiviet{
+    width: 320px;
+}
+.anhnoidung{
+    display: flex;
+    margin: 30px 30px 30px 0;
+}
+.noidung{
+    margin-left: 30px;
+}
+.noidung-tieude{
+    font-size: 1.2em;
+    margin: 10px 10px 10px 0;
+    color: black;
+}
+.noidung-time{
+    font-size: 0.8em;
+    color: #bdbce1;
+    margin: 10px 10px 10px 0;
+}
+.noidung-chitiet{
+    font-size:0.9em;
+    color: #999ca4;
+    margin: 10px 10px 10px 0;
+}
+.tieude2{
+    position: relative;
+    margin: 20px 10px 0 0 ;
+    color: #F69c60;
+    font-size: 1.2em;
+}
+.baiviet li{
+    margin: 36px 10px 10px 0;
+    font-size: 0.9em;
+    
+}
+.baiviet a{
+    color: black;
+}
+.baiviet ul{
+    list-style-type: none;
+}
+select{
+    margin-top: 50px;
+   margin-left: 380px;
+   color:#bdbce1;
+   border-color: #bdbce1;
+   padding: 5px;
+}
+.footer-top{
+    width: 1070px;
+    background-color: #3e3e3e;
+    display: flex;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 200px;
+    color: white;
+    padding-top: 30px;
+}
+.footer-top1{
+    width: 600px;
+    margin-left: 80px;
+  
+}
+.footer-top1-text{
+    padding: 0 50px 20px 0;
+}
+.footer-top1 p{
+    font-size: 0.9em;
+}
+.footer-icon i{
+    background-color: #3e3e3e;
+    color: white;
+    margin: 5px 5px 5px 0;
+    padding:13px;
+    width: 40px;
+    height: 40px;
+}
+.footer-icon{
+    margin-top: 30px;
+}
+.footer-bottom{
+    background-color: #0D0D0D;
+    width: 1070px;
+    margin-left: 200px;
+    color: white;
+    padding:1px 10px 20px 79px;
+    font-size: 0.9em;
+    height: 40px;
+}
+
+
+

@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/images/bg-top.jpg);
+    background-color: #f2f2f2;
+}
+.header li{
+    display: inline-table;
+    border-left: 1px solid gray;
+    padding: 0 20px;
+}
+.header li:first-child{
+    border: 0px;
+}
+
+a{
+    color:white ;
+    text-decoration: none;
+}
+#header-menu{
+    position: relative;
+    top: 20px;
+    left: 325px;
+}
+.logo-space{
+    width: 150px;
+}
+.than-trai{
+    display: grid;
+    grid-template-columns: 241px 492px;
+    grid-template-rows: 126px 98px 30px;
+    padding: 2px;
+    gap: 10px;
+}
+.down
+{
+width: 241px;
+height: 126px;
+    background-image: url(/images/btn_taigame.jpg);
+}
+.nut1{
+    width: 240px;
+    height: 128px;
+    background-image: url(/images/buttons-left.png);
+    grid-row: 2/3;
+    margin-top: -4px;
+}
+.nut1:hover{
+    background-position: -248px 0;
+}
+.nut2{
+    width: 254px;
+    height: 224px;
+    background-image: url(/images/buttons-right.png);
+}
+.image{
+    width: 492px;
+    height: 260px;
+    background-image: url(/images/slider-01.gif);
+    grid-column: 2/3;
+}
+.than{
+    width: 990px;
+    height: 265px;
+position: relative;
+background-color: #112141;
+margin-top: 440px;
+    margin-left: 370px;
+}
+.than-phai{
+    position: absolute;
+    display: grid;
+    left: 755px;
+    top: -4px;
+}
+.hotline{
+    background-image: url(/images/hotline.png);
+    width: 229px;
+    height: 30px;
+    margin-top: 10px;
+}
+.thanthan{
+position: relative;
+left: 370px;
+top: 3px;
+  height: 100px;
+}
+.cuuamlenh{
+    position: absolute;
+    background-image: url(/images/cuuamlenh-vip-giftcode.png);
+    width: 742px;
+    height: 83px;
+}
+.linkright{
+    position: absolute;
+    left: 754px;
+    top:0;
+    background-image: url(/images/links-right.png);
+    width: 236px;
+    height:290px;
+    background-color: #112141;
+    border: #112141 7px solid;
+    
+}
+.table{
+    position: absolute;
+    left: 0;
+    top: 90px;
+    width: 745px;
+    height: 700px;
+    background-color: #112141;
+}
+.table-menu{
+   
+    width: 745px;
+    height: 64px;
+    background-image: url(/images/news-header-bg.png);
+}
+.table li{
+    display: inline-table;
+    padding: 0 20px;
+    margin-top: 22px;
+   
+}
+.table li a{
+    color: #CAB478;
+}
+.table-content{
+    position: absolute;
+    top: 64px;
+    left: 7px;
+background-color: #f2f2f2;
+    width:730px;
+    height: 625px;
+} 
+.longden{
+    position: relative;
+    bottom: 268px;
+    left: -77px;
+    background-image: url(/images/long-den.png);
+    width: 106px;
+    height: 236px;
+}
+
+.tin1{
+    position: relative;
+    width: 600px;
+    height: 137px;
+   
+}
+.dangnhapnhanqua{
+    position: absolute;
+    background-image: url(/images/news-dang-nhap.jpg);
+    width: 155px;
+    height: 143px;
+    border: #b69b74 solid 6px;
+}
+.noidung1{
+    position: absolute;
+    left: 180px;
+   
+}
+
+.tin2{
+    position: relative;
+    width: 600px;
+    height: 137px;
+    margin-top: 30px;
+}
+.sukien{
+    position: absolute;
+    background-image: url(/images/news-su-kien.jpg);
+    width: 155px;
+    height: 143px;
+    border: #b69b74 solid 6px;
+}
+.noidung2{
+    position: absolute;
+    left: 180px;
+    
+}
+.tin3{
+    position: relative;
+    width: 600px;
+    height: 137px;
+    margin-top: 30px;
+}
+.congteno{
+    margin: 20px;
+}
+
+.thang03{
+    position: absolute;
+    background-image: url(/images/news-event-thang3.png);
+    width: 155px;
+    height: 143px;
+    border: #b69b74 solid 6px;
+}
+.noidung3{
+    position: absolute;
+    left: 180px;
+   
+}
+#tieude{
+    border-left: #b70f0b solid 6px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 10px;
+    color: #b70f0b;
+    width: 450px;
+    
+}
+#time{
+    color: #686969;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px 0px;
+}
+#mota{
+    width:480px;
+    color: rgb(75, 73, 73);
+}
+.day{
+    position: relative;
+    left: -370px;
+    top: 590px;
+    width: 1920px;
+    height: 224px;
+    background-image: url(/images/bg-bottom.jpg);
+}
+#nutnut{
+    display: inline-table;
+width:100px ;
+height: 40px;
+background-color: #112141;
+color: #bfbfbf;
+border: #bfbfbf solid 5px;
+text-align:center ;
+line-height: 50px;
+margin: 0 10px;
+}
+.nut{
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+.footer-inner{
+    width: 100%;
+    height: 200px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    position: relative;
+}
+.footer-logo {
+    display: block;
+    float: left;
+    background: url(./images/gosu-logo.png) no-repeat;
+    width: 135px;
+    height: 36px;
+    position: absolute;
+}
+.footer-link a{
+    text-decoration: none;
+    color:#000;
+    padding: 0 5px;
+}
+.footer-link a:hover{
+    color: #e3980d;
+}
+
+.rs{
+    margin-top: 5px;
+}
+
